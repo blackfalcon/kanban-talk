@@ -1,0 +1,426 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/league.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section data-background-image="https://static.pexels.com/photos/6548/cold-snow-winter-mountain.jpeg">
+					<section data-markdown>
+						<script type="text/template">
+							# Kanban in the enterprise
+
+							### Roles, responsibilities and delivery
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							or ...
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							# How to deliver modern software
+						</script>
+					</section>
+					<section data-markdown data-background-image="media/uig.jpg">
+						<script type="text/template">
+							# Dale Sande @anotheruiguy
+
+							Career that spans creative<br>design and web application development
+
+							Getty Images | Best Buy<br>Microsoft | REI | AppDirect
+						</script>
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown data-background-image="http://www.darcob.com/wp-content/uploads/2016/10/Best-10-Secrets-to-Project-Management.png">
+						<script type="text/template">
+							# A Brief history of Project Management
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							# Waterfall
+
+							Everything was planned out ahead of time and executed in an orderly fashion. Change was disruptive and _change management_ was difficult at best.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							# SCRUM
+
+							Practice of Agile that was based on a defined body of work that would be delivered within the scope of a sprint. Name was taken from Rugby, metaphor is that <br/>__the team acts as one unit to deliver__
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							# Agile
+
+							The antithesis of Waterfall. <br>_adjective_ **able to move quickly and easily.** <br>That's it, nothing more.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							# Kanban
+
+							A scheduling system for lean manufacturing and just-in-time manufacturing that was adopted as a just-in-time software delivery model.
+						</script>
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown data-background-image="http://2wzlm92dvpgd3a560m9ue6tx.wpengine.netdna-cdn.com/wp-content/uploads/2014/05/01-georgia-waterfalls-top-ten-hikes.jpg">
+						<script type="text/template">
+							# Let's talk about Waterfall
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## They are beautiful to look at
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Amazing photography
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Terrible for project management and software development
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## ... moving on
+						</script>
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown data-background-image="http://headsup.boyslife.org/files/2013/02/65770-thing_vs_hulk.jpg">
+						<script type="text/template">
+							# SCRUM vs. Kanban
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## It's a difference between<br>'commit' and 'pull' models
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## While they do share similar aspects in Agile, they are fundamentally different
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Red flags to look out for
+
+							<ul>
+								<li>When people say "SCRUM-ban"</li>
+								<li>There is __no such thing__ as "Agile-Waterfall"</li>
+							</ul>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## SCRUM: locks in a Sprint<br>and work is assigned
+
+							There are rules of engagement. Short sprints allow for work flexibility, but there is no flexibility within the scope of the sprint.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Kanban: more fluid, work feed from a prioritized backlog
+
+							Feed from a groomed backlog, the goal of a sprint is maintain a flow of new work and development work is completed. What comes next is fluid based on the always flexible and prioritized backlog.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## SCRUM: change management inside a sprint
+
+							If the scope of a story changes within the sprint, that work is ejected and recycled for an upcoming sprint.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Kanban: change management within a 'time box'
+
+							Kanban is more focused on the work being done, not the work that was committed to.
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## How is work done with SCRUM?
+
+							<ul>
+								<li class="fragment fade-up">
+									Defines a __sprint__ as a _potentially shippable product increment_ that fits in specific time allotment
+								</li>
+								<li class="fragment fade-up">
+									Extensive planning is required prior to the start of a sprint
+								</li>
+								<li class="fragment fade-up">
+									Work is committed to within the scope of a sprint
+								</li>
+								<li class="fragment fade-up">
+									With all items committed to, all requirements and dependencies need to be met before the start of the sprint
+								</li>
+								<li class="fragment fade-up">
+									Emphasis on delivering promised scope
+								</li>
+								<li class="fragment fade-up">
+									Maintains work cycles in which work is delivered, agility is achieved via short cycles
+								</li>
+							<ul>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## How is work done with Kanban?
+
+							<ul>
+								<li class="fragment fade-up">
+									Defines a __sprint__ as a time box in which to measure how much work was delivered continuously
+								</li>
+								<li class="fragment fade-up">
+									As work is completed, new work is 'pulled' in
+								</li>
+								<li class="fragment fade-up">
+									Backlog is groomed in real time
+								</li>
+								<li class="fragment fade-up">
+									Rules of engagement ensure Work In Progress limits
+								</li>
+								<li class="fragment fade-up">
+									Emphasis on delivering completed work w/business value
+								</li>
+								<li class="fragment fade-up">
+									Removes resistance to change to facilitate beneficial output, agility is achieved by iterative improvements
+								</li>
+							</ul>
+						</script>
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown data-background-image="http://techbeacon.com/sites/default/files/styles/social/public/scrumban-kanban-vs-scrum-how-compare-pros-cons-agile-methodologies-teams.jpg?itok=Rfr1Hwa-">
+						<script type="text/template">
+							# Kanban's general best practices and big wins
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Balance demand with available capacity
+
+							<ul>
+								<li class="fragment fade-up">
+									Visualize work in progress
+								</li>
+								<li class="fragment fade-up">
+									Limited WIP ensures that work is completed before new work is started
+								</li>
+								<li class="fragment fade-up">
+									Managed workflow from start to finish
+								</li>
+								<li class="fragment fade-up">
+									Policies are explicit
+								</li>
+								<li class="fragment fade-up">
+									Implement feedback loops
+								</li>
+								<li class="fragment fade-up">
+									Improve collaboratively, evolve experimentally
+								</li>
+							</ul>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Complicated software need not apply ... sticky notes will work just fine!
+						</script>
+					</section>
+					<section data-background-image="https://upload.wikimedia.org/wikipedia/commons/d/d3/Simple-kanban-board-.jpg"></section>
+					<section data-background-image="https://leankit.com/learn/wp-content/uploads/2015/12/kanban_guide_print_KPO_bleed_board2-1024x517.jpg"></section>
+					<section data-background-image="https://leankit.com/learn/wp-content/uploads/2015/12/Kanban-board-1.png"></section>
+					<section data-background-image="http://blog.psoda.com/wp-content/uploads/2015/03/Kanban-Board.jpg"></section>
+					<section data-background-image="http://www.personalkanban.com/pk/wp-content/uploads/2013/11/KB1.jpg"></section>
+				</section>
+
+				<section>
+					<section data-markdown data-background-image="http://www.business-opportunities.biz/wp-content/uploads/2014/11/business-plan-woman.jpg">
+						<script type="text/template">
+							# Planning anyone?
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## How is planning done on Kanban?
+
+							<ul>
+								<li class="fragment fade-up">
+									Work defined in the scope of a "story"
+								</li>
+								<li class="fragment fade-up">
+									Consists of summary, scope and 'done when ...' statements
+								</li>
+								<li class="fragment fade-up">
+									Estimated by scope of work and risk, not time.
+								</li>
+								<li class="fragment fade-up">
+									Fibonacci numbers are common, t-shirt sizing is preferred
+								</li>
+								<li class="fragment fade-up">
+									If scope is undetermined || dependencies are not met, story CANNOT be estimated or 'pulled'
+								</li>
+								<li class="fragment fade-up">
+									Planning estimate is 'best guess'
+								</li>
+								<li class="fragment fade-up">
+									Final estimate is agreed upon once work is pulled
+								</li>
+								<li class="fragment fade-up">
+									Dev can push back and/or re-estimate work
+								</li>
+							</ul>
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Short meetings
+
+							Ensure that devs are aware of stories in the pipeline
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Story discussion
+
+							Ensures that points of a good story are addressed and everyone understands
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Scope
+
+							Scope of work is determined based on what is reusable and what is needed new
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Estimation
+
+							Typically are rough and based on what is `known` at the time
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Sizing
+
+							Best estimated in complexity and risk, not time and materials
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Last chance
+
+							Prior to moving a card from _Selected for Dev_ to _In Dev_, the dev should __re-estimate__ the work to ensure that initial estimates are in scope (last chance to alter expectations)
+						</script>
+					</section>
+				</section>
+
+				<section>
+					<section data-markdown data-background-video="media/retro.mp4">
+						<script type="text/template">
+							# Delivered work and retrospectives
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## End of time boxed sprint, completed work is discussed with the business
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Team retrospectives held at the end of a time boxed sprint
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## Rinse and repeat
+						</script>
+					</section>
+				</section>
+
+				<!--
+				<section>
+					<section data-markdown data-background-image="">
+						<script type="text/template">
+							# hello world
+						</script>
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							## hello world
+						</script>
+					</section>
+				</section>
+				-->
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: false,
+				touch: true,
+				hideAddressBar: true,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+
+			Reveal.configure({
+				keyboard: {
+					13: 'next', // go to the next slide when the ENTER key is pressed
+					32: null // don't do anything when SPACE is pressed (i.e. disable a reveal.js default binding)
+				}
+			});
+		</script>
+	</body>
+</html>
