@@ -7,7 +7,7 @@ A slide deck built in reveal.js to discuss the importance of and difference betw
 
 ## Build and review deck
 
-Now, I could export a PDF and put this deck somewhere, but how is that any fun? Also, if you are new to coding, reveal.js is really easy and an amazing intro to coding. By following some simple steps, you will be that much smarter :)
+Now, I could export a [PDF and put this deck somewhere](http://www.anotheruiguy.com/talks/kanban/), but how is that any fun? Also, if you are new to coding, reveal.js is really easy and an amazing intro to coding. By following some simple steps, you will be that much smarter :)
 
 Pull down repo either via `$ clone` or click the `download zip` button
 
@@ -15,17 +15,17 @@ Pull down repo either via `$ clone` or click the `download zip` button
 
 * Node and npm; [install Node](https://howtonode.org/how-to-install-nodejs)
 * Grunt
-	 
+
 	```
 	$ npm install grunt -g
 	$ npm install grunt-cli -g
 	```
 * Bower
-	
+
 	```
 	$ npm install bower -g
 	```
-	
+
 ### Install dependencies
 
 Within the directory, run the following commands
